@@ -1,0 +1,32 @@
+.card .card-img-top {
+  height: 450px;
+  object-fit: cover;
+}
+
+.card {
+  position: relative;
+}
+
+.card .card-body a.btn {
+  position: absolute;
+  bottom: 10px;
+}
+
+.card .card-body .services-card-subtitle {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .pricing-section .card .card-body {
+    position: relative;
+  }
+  
+  .pricing-section .card .card-body .button-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    padding: 16px;
+    transform: translate(-50%, 0);
+  } 
+}
